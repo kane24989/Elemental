@@ -185,7 +185,7 @@ function MainScript()
 
         local DungeonNameDropdown = dungeonsettings:AddDropdown("DungeonName", {
             Title = "Choose Dungeon",
-            Values = {"BeginnersDungeon", "JungleDungeon", "ArcticBastionDungeon", "UnderwaterDungeon", "FireDungeon"},
+            Values = {"BeginnersDungeon", "JungleDungeon", "ArcticBastionDungeon", "UnderwaterDungeon", "FireDungeon", "AngelSanctuary"},
             Multi = false,
             Default = Settings.DungeonName or "",
         })
